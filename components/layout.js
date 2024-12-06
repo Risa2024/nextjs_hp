@@ -5,13 +5,14 @@ import Image from "next/image";
 
 export default function Layout({children, title = "HP by Nextjs"}) {
     return (
+        <>
         <div className="flex jjustify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono">
             <Head>
                 <title>{title}</title>
             </Head>
             <header>
                 <nav className="bg-gray-800 w-screen">
-                    <div className="flx items-center pl-8 h-14">
+                    <div className="flx items-center pl-8h-14">
                         <div className="flex space-x-4">
                             <Link href="/">
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
@@ -44,9 +45,10 @@ export default function Layout({children, title = "HP by Nextjs"}) {
         >
           Powered by{' '}
           
-            <Image src="/vercel.svg" alt="Vercel Logo" width={100} と height={100} />
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} と height={16} />
           </a>
       </footer>
         </div>
+        </>
     );
 }
