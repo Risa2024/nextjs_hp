@@ -16,8 +16,19 @@ const Contact = () => {
             height={60}
             alt="Avatar"//名前
           />
-    </div>
-      </div>
+
+     </div>
+     <div className="mt-4">
+      <p className="font-bold">Address</p>
+      <p className="text-xs mt-2 text-gray-600">city A</p>
+      <p className="font-bold mt-3">E-mail</p>
+      <p className="text-xs mt-2 text-gray-600">abc@gmail.com</p>
+      <p className="font-bold mt-3">phone</p>
+      <p className="text-xs mt-2 text-gray-600">000-123-456</p>
+
+
+     </div>
+     </div>
   </Layout>
    
   
