@@ -1,21 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout';
 import { getAllPostsData } from '../lib/posts';
+import Post from '../components/Post';
 
-const Blog = ({ props }) => {
-  return 
-  <Layout title="Blog">
-     <ul className="m-10">
+export default function Blog({ posts }) {
+  return (
+    <Layout title="Blog">
+      <ul className="m-10">
         {posts && posts.map((post) => <Post key={post.id} post={post} />)}
       </ul>
-  </Layout>
- 
-  };
+    </Layout>
+  );
+}
 
-export default Blog;
-
-export async function getStaticProps() { //サーバーサイドでビルド時に実行される
-  const posts = await getAllPostsData
+export async function getStaticProps() {
+  const posts = await getAllPostsData();
   return {
     props: { posts },
   };
