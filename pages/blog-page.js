@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Layout from '../components/layout';
 import { getAllPostsData } from '../lib/posts';
 import Post from '../components/Post';

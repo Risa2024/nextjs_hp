@@ -6,7 +6,7 @@ const Contact = () => {
   return  <Layout title="Contact">
     <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
         <div className="mt-4">
-          <p className="font-bold">Contact info</p>
+          <p className="font-bold"> Information </p>
         </div>
           <div className="flex justify-center mt-4">
             <Image
@@ -20,9 +20,9 @@ const Contact = () => {
         </div>
       <div className="mt-4">
         <p className="font-bold">Address</p>
-        <p className="text-xs mt-2 text-gray-600">city A</p>
+        <p className="text-xs mt-2 text-gray-600">Nippon</p>
         <p className="font-bold mt-3">E-mail</p>
-        <p className="text-xs mt-2 text-gray-600">abc@gmail.com</p>
+        <p className="text-xs mt-2 text-gray-600">xxx@gmail.com</p>
         <p className="font-bold mt-3">phone</p>
         <p className="text-xs mt-2 text-gray-600">000-123-456</p>
         </div>
