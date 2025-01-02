@@ -16,17 +16,17 @@ export default function Layout({children, title = "HP by Nextjs"}) {
                         <div className="flex space-x-4">
                             <Link href="/">
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
-                                    Home
+                                    ホーム
                                 </a>
                              </Link>      
                              <Link href="/blog-page">
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
-                                    Blog
+                                    ブログ
                                 </a>
                             </Link>  
                             <Link href="/contact-page">
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
-                                    Contact
+                                    コンタクト
                                 </a>
                             </Link>  
                         </div>
